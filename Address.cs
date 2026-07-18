@@ -1,2 +1,2 @@
-private class Address
+private class Address: Event
 {string Address = "";}
