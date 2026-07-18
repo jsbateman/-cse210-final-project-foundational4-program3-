@@ -32,14 +32,14 @@ protected class Event
     Weather = weather;
     string _FullDetails = $"Event Type: {eventtype} RSVP Email: {RSVPemail} Capacity: {capacity} Event Title: {Title} Event Description: {Description} Event Speaker: {speaker} Date: {date} Weather: {Weather} Time: {time} Address {address}";
     return _FullDetails;
-
-     string _shortDescription (string Title, string eventtype, string date)
-     {date = Date;
-     Title = EventTitle;
-     eventtype = EventType;
-     string _shortDescription = $"Event Type: {eventtype} Event Title: {Title} Date: {date}";
-     return _shortDescription;
+    }
+    string _shortDescription (string Title, string eventtype, string date)
+    {date = Date;
+    Title = EventTitle;
+    eventtype = EventType;
+    string _shortDescription = $"Event Type: {eventtype} Event Title: {Title} Date: {date}";
+    return _shortDescription;
+    }
     }
 
-
-    }
+    
